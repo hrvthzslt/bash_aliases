@@ -123,5 +123,7 @@ alias granchr="git branch --remote"
 alias gelete="git branch -d"
 alias gsub="git submodule"
 alias gsubinit="git submodule update --init --recursive"
+alias giff="git diff"
+alias gog="git log"
 
 alias kport=kill-port
