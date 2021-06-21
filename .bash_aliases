@@ -104,6 +104,31 @@ alias drun=drun-fn
 alias dsp="docker system prune --all"
 alias dsr=dsr-fn
 
+alias sai='sudo apt install'
+alias sau='sudo apt update'
+alias saug='sudo apt upgrade'
+alias sar='sudo apt remove'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
+
+alias ls='exa -al --color=always --group-directories-first'
+alias la='exa -a --color=always --group-directories-first'
+alias ll='exa -l --color=always --group-directories-first'
+alias l.='exa -a | egrep "^\."'
+
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+alias cp="cp -i"
+alias df="df -h"
+
+alias nf='neofetch'
+
 alias sail="bash vendor/bin/sail"
 
 alias cz="npx cz"
