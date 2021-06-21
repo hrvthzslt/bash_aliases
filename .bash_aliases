@@ -152,3 +152,6 @@ alias giff="git diff"
 alias gog="git log"
 
 alias kport=kill-port
+
+alias ve='python3 -m venv ./venv'
+alias va='source ./venv/bin/activate'
